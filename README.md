@@ -1,6 +1,6 @@
 # Chess-Game
-# PawnPusher
 
+Hi there! This is a chess game created for a CS course for the University of Waterloo.
 To just see pictures of the game go to the Wiki section!
 
 ## Setting up
