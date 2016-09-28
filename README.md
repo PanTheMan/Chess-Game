@@ -1,5 +1,8 @@
 # Chess-Game
 # PawnPusher
+
+To just see pictures of the game go to the Wiki section!
+
 ## Setting up
 ###X11
 You will need XQuartz if on a mac. http://www.xquartz.org/
