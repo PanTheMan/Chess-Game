@@ -1,0 +1,11 @@
+Bonus features implemented:
+Undoing moves: Our code has the ability to undo a move so that the player can make a different move. We implemented a stack of previous moves, called MoveFootprints, that would allow us to keep track of the moves done so far and allow undos to be fairly easily done. To test this feature start a game and make some moves. Then type in "undo" and the move will be undone like magic.
+
+Highlighting moves in Graphics: For the graphics view, our group implemented an extra feature that highlights the starting position and end position of the previous move. If the start/end position is on a black square, the highlight will be green and if on a white square, the highlight will be yellow. Also if the king is in check, the king's square is highlighted with magenta. To test this feature, just play the game normally to see the yellow and green highlight, and check one of the kings to see the magenta highlight. 
+
+Level 5 AI: Our code has an even smarter AI than the level 4 computer player. We added an Alpha-Beta pruning function to the level 5 code that allows for the computer to search through all the possible moves faster. This time saved allows the computer to look 1 move further ahead than level 4, resulting in a smarter computer player. 
+To test this feature, after typing in the "game" command, type in "computer5" as one of the players, to play againist the level 5 AI and then proceed to get crushed and have fun!
+
+Automove: Another bonus feature our program has is an automove command. This feature omits having to type in the command "move" for the computer player and will automatically make a move. To test this feature, start the game with two players, one of which is a computer player, and then type in "auto" to start auto mode. then make a move when it's your turn and the computer player will automatically make a move in response.
+
+FEN setup: FEN is a standard notation in chess. We have added a feature to setup a game with FEN. To test this feature, type in the "setup" command before a game is started. Then type in "FEN" and then an actual FEN notation string and the game will be setup using the FEN notation
